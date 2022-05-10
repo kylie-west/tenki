@@ -1,10 +1,11 @@
 import Navbar from "./components/Navbar";
+import Today from "./components/Today";
 
 function App() {
 	return (
 		<div className="App">
 			<Navbar />
-			<header className="App-header">hello</header>
+			<Today />
 		</div>
 	);
 }

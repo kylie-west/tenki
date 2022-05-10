@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
 	return (
 		<nav className="navbar navbar-expand-md navbar-light bg-light">
-			<div className="container-fluid d-flex flex-column flex-md-row">
+			<div className="container mx-md-3 d-flex flex-column flex-md-row">
 				<form className="d-flex input-group">
 					<button className="btn btn-outline-primary">GPS</button>
 					<input
@@ -17,7 +17,7 @@ const Navbar = () => {
 					</button>
 				</form>
 
-				<ul className="nav nav-pills flex-row justify-content-around justify-content-md-start w-100 me-auto my-2 mb-lg-0">
+				<ul className="nav nav-pills flex-row justify-content-around justify-content-md-start w-100 ms-md-3 my-2 mb-lg-0">
 					<li className="nav-item-dark">
 						<a className="nav-link" href="#">
 							Today
